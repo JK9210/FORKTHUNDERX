@@ -54,11 +54,11 @@
 
 <h4>Terminal</4>
 <br>
-
+ <b>TERMINAL IS NOT WORKING AT PRESENT. IN NEXT UPDATE IT WILL BE FIXED !...</b>
   * Open terminal
 
    ```python
-pkg install python wget -y && pip install pyrogram  && pip install tgcrypto&& wget https://raw.githubusercontent.com/RiZoeLX/SpamX/main/multisess.py && python3 multisess.py
+pkg install python wget -y && pip install pyrogram  && pip install tgcrypto&& wget https://raw.githubusercontent.com/APL9210/THUNDERX/main/multisess.py && python3 multisess.py
    ```
   * Paste ☝️ This code
 
@@ -70,9 +70,4 @@ pkg install python wget -y && pip install pyrogram  && pip install tgcrypto&& wg
      * Paste the OTP received on Telegram.
      * If You have Enabled 2-Step Verification then fill your password.
 
-<h4> License </h4>
-
-[![License](https://www.gnu.org/graphics/gplv3-or-later.png)](LICENSE)   
-THUNDERX is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/gplv3-or-later.pngl) v3 or later.
-
-
+<b>DON'T FORGET TO GIVE A START, THANKS FOR VISITING US !.....</b>
