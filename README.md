@@ -54,7 +54,11 @@
 
 <h4>Terminal</4>
 <br>
+
+
  <b>TERMINAL IS NOT WORKING AT PRESENT. IN NEXT UPDATE IT WILL BE FIXED !...</b>
+
+
   * Open terminal
 
    ```python
