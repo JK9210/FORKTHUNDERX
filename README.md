@@ -7,14 +7,13 @@
 
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/UNI_INDIA_0000)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/FriendCastel)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/free_fire_chat_group_official)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/Romeo9019)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/LegendBotSpam)
 
 <b> Give a star ⭐</b>
 
 ----
-<h4>Youtube Tutorials 📺</h4>
-
-
-
 ----
 
 <h3 align="center">Deployment</h3>
