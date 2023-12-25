@@ -1,13 +1,7 @@
-<p align="center">
-  <img src="resources/RiZoeLX.png" alt="RiZoeLXSpam Logo">
-</p>
-<h6 align="center">
-  <b>• SᴘᴀᴍX Bʏ RɪZᴏᴇLX •</b>
-</h6>
 
 ----
 
-<b> SpamX Is A Pyrogram Based Spam Bots For Telegram With Many Features </b>
+<b> THUNDERX Is A Pyrogram Based Spam Bots For Telegram With Many Features </b>
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=RiZoeLX&repo=SpamX&theme=lite)
 
@@ -80,6 +74,6 @@ pkg install python wget -y && pip install pyrogram  && pip install tgcrypto&& wg
 <h4> License </h4>
 
 [![License](https://www.gnu.org/graphics/gplv3-or-later.png)](LICENSE)   
-SpamX is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/gplv3-or-later.pngl) v3 or later.
+THUNDERX is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/gplv3-or-later.pngl) v3 or later.
 
-<h3>Credits</h3>
+
