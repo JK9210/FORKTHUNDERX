@@ -23,7 +23,7 @@ async def ping(_, e: Message):
       pong_msg = await e.reply("**𝒫𝑜𝓃𝑔 ! !**")
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
-      await pong_msg.edit_text(f"⌾ {ping_msg} ⌾ \n\n ༝ ᴘɪɴɢ: `{ms}` ᴍs \n ༝ ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ༝ ᴠᴇʀsɪᴏɴ: `{__version__}`")
+      await pong_msg.edit_text(f"⌾ {ping_msg} ⌾ \n\n ༝ 𝒫𝐼𝒩𝒢: `{ms}` ᴍs \n ༝ 𝒰𝒫𝒯𝐼𝑀𝐸: `{uptime}` \n ༝ 𝒱𝐸𝑅𝒮𝐼𝒪𝒩: `{__version__}`")
       
 @Client.on_message(filters.me & filters.command(["ping"], prefixes=handler))
 async def ping_me(_, e: Message):       
@@ -36,7 +36,7 @@ async def ping_me(_, e: Message):
         await e.delete()    
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
-      await pong_msg.edit_text(f"⌾ {ping_msg} ⌾ \n\n ༝ ᴘɪɴɢ: `{ms}` ᴍs \n ༝ ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ༝ ᴠᴇʀsɪᴏɴ: `{__version__}`")
+      await pong_msg.edit_text(f"⌾ {ping_msg} ⌾ \n\n ༝ 𝒫𝐼𝒩𝒢: `{ms}` ᴍs \n ༝ 𝒰𝒫𝒯𝐼𝑀𝐸: `{uptime}` \n ༝ 𝒱𝐸𝑅𝒮𝐼𝒪𝒩: `{__version__}`")
 
 
 
