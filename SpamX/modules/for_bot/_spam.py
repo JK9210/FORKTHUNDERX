@@ -1,5 +1,4 @@
-# RiZoeL X - Telegram Projects
-# (c) 2022 - 2023 RiZoeLX
+# (c) 2024 - 2025 ThunderX
 
 import os, sys, asyncio, re
 from random import choice
