@@ -1,8 +1,8 @@
 <p aling="center">
-  <img src="https://telegra.ph/file/e7ea9ed17d03d56ca6346.jpg"
+  <img src="https://telegra.ph/file/e7ea9ed17d03d56ca6346.jpg" alt="ThunderXspam Logo">
     </p>
   <h6 align="center">
-    <b>THUNDERX BY AKATSUKI</b>
+    <b>𝒯𝐻𝒰𝒩𝒟𝐸𝑅 𝒳</b>
   </h6>
 ----
 
