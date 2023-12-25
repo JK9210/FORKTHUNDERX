@@ -15,7 +15,7 @@ if DATABASE_URL:
   from sqlalchemy.sql.sqltypes import BigInteger
 
   class Sudos(BASE):
-    __tablename__ = "SpamXSudos"
+    __tablename__ = "ThunderXSudos"
     user_id = Column(BigInteger, primary_key=True)
 
     def __init__(self, user_id):
