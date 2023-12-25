@@ -1,8 +1,3 @@
-"""
-    © RiZoeLX
-    SpamX
-"""
-
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from .. import Sudos, Owner, handler, DATABASE_URL
