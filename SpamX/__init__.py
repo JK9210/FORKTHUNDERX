@@ -29,7 +29,7 @@ else:
   sudoser.append(OWNER_ID)
 
 AUTO_REACT = []
-if auto_re:
+if AUTO_REACT:
    AUTO_REACT = make_list(-1001244090544, auto_re)
 else:
    AUTO_REACT.append(-1001244090544)
