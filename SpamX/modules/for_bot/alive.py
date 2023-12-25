@@ -1,4 +1,4 @@
-""" © RiZoeLX 2022 - 2023
+""" © ThunderX 2024 - 2025
    (\_/)
    ( • .•)
    />❤️ 
@@ -47,7 +47,7 @@ async def SpamX_(SpamX: Client, message: Message):
     Mai = await SpamX.get_me()
     chat = message.chat
     info = await message.reply_text("processing......")
-    spamx_reply = "**__SpamX by RiZoeLX;__** \n\n"
+    spamx_reply = "**__𝒯𝒽𝓊𝓃𝒹𝑒𝓇 𝒳;__** \n\n"
     spamx_reply += "<=======================> \n"
 
     try:
@@ -89,15 +89,15 @@ async def SpamX_(SpamX: Client, message: Message):
     spamx_reply += f"**Battery:** {battery} \n\n"
     await info.edit_text("..!......")
 
-    spamx_reply += f"**SpamX Version:** `{__version__}` \n"
-    spamx_reply += f"**Python Version:** `{platform.python_version()}` \n"
-    spamx_reply += f"**pyRiZoeLX Version:** `{rizoelx_vr}` \n"
-    spamx_reply += f"**Pyrogram Version:** `{pyrogram_vr}` \n\n"
+    spamx_reply += f"**𝒯𝒽𝓊𝓃𝒹𝑒𝓇𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{__version__}` \n"
+    spamx_reply += f"**𝒫𝓎𝓉𝒽𝑜𝓃 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{platform.python_version()}` \n"
+    spamx_reply += f"**𝒫𝓎 𝒯𝒽𝓊𝓃𝒹𝑒𝓇𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{rizoelx_vr}` \n"
+    spamx_reply += f"**𝒫𝓎𝓇𝑜𝑔𝓇𝒶𝓂 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{pyrogram_vr}` \n\n"
     
     spamx_reply += f"**Your Name:** {user.first_name} \n"
     spamx_reply += f"**Your ID:** `{user.id}` \n"
     if user.id in Devs:
-       spamx_reply += f"**Rank:** Dev of SpamX \n"
+       spamx_reply += f"**Rank:** Dev of ThunderX \n"
     elif user.id == Owner or user.id == Mai.id:
        spamx_reply += f"**Rank:** Owner 🔱 \n"
     else:
@@ -106,8 +106,8 @@ async def SpamX_(SpamX: Client, message: Message):
        spamx_reply += f"**Total Sudos:** `{users_db.sudo_count()}` \n"
        spamx_reply += f"**Total Gbanned users:** `{gban_db.gban_count()}` \n"
     spamx_reply += "<=======================> \n\n"
-    spamx_reply += "**Source Code:** [GitHub 🐈‍⬛](https://github.com/RiZoeLX/SpamX) \n\n"
-    spamx_reply += "**© @RiZoeLX** || Support: @DNHxHELL"
+    spamx_reply += "**Source Code:** [GitHub 🐈‍⬛](https://github.com/APL9210/THUNDERX) \n\n"
+    spamx_reply += "**© @KANU_0008** || Support: @UNI_INDIA_0000"
     
     try:
        await info.edit_text(spamx_reply, disable_web_page_preview=True)
