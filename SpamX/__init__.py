@@ -1,5 +1,3 @@
-""" © THUNDER X """
-
 from .config import *
 from .database import *
 from .core import *
@@ -10,7 +8,7 @@ import time, os, sys
 
 print("""
      ╒══════════════════════╕
-      ꜱᴛᴀʀᴛɪɴɢ ʏᴏᴜʀ ᴛʜᴜɴᴅᴇʀ x 
+     ꜱᴛᴀʀᴛɪɴɢ ʏᴏᴜʀ ᴛʜᴜɴᴅᴇʀ x  
      ╘══════════════════════╛
 """)
 
