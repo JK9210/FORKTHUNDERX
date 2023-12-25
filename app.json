@@ -1,7 +1,7 @@
 {
-      "name": "SpamX - RiZoeL",
+      "name": "Thunder X",
       "description": "A Pyrogram Based Spam Bots With Many Cmds Fast And Stable",
-      "logo": "https://telegra.ph/file/ec832fc9107fd21edfee3.jpg",
+      "logo": "https://telegra.ph/file/d44e21c2ba129c6aba2ab.jpg",
       "keywords": [
         "telegram",
         "PYROGRAM",
@@ -9,7 +9,7 @@
         "SpamX",
         "RiZoeLX"
       ],   
-  "repository": "https://github.com/RiZoeLX/SpamX",
+  "repository": "https://github.com/APL9210/THUNDERX",
   "website": "https://github.com/RiZoeLX",
   "success_url": "https://t.me/RiZoeLX",
   "env": {
