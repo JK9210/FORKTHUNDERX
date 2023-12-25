@@ -1,4 +1,9 @@
-
+<p aling="center">
+  <img src="https://telegra.ph/file/e7ea9ed17d03d56ca6346.jpg"
+    </p>
+  <h6 align="center">
+    <b>THUNDERX BY AKATSUKI</b>
+  </h6>
 ----
 
 <b> THUNDERX Is A Pyrogram Based Spam Bots For Telegram With Many Features </b>
