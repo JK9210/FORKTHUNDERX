@@ -1,10 +1,3 @@
-
-# RiZoeL X - Telegram Projects
-# (c) 2022 - 2023 RiZoeL
-# Don't Kang Bitch -!
-
-
-
 from .. import (handler, Sudos, LOGS_CHANNEL)
 from pyrogram import Client, filters
 from pyrogram.types import Message
@@ -26,7 +19,7 @@ async def leave(SpamX: Client, e: Message):
            if chat in [-1001321613309, 1321613309, "@DNHxHELL"]:
               return
            await SpamX.leave_chat(chat)
-           await e.reply_text("**Left Successfully ✅ **")
+           await e.reply_text("**𝐿𝑒𝒻𝓉 𝒮𝓊𝒸𝒸𝑒𝓈𝓈𝒻𝓊𝓁𝓁𝓎 ✅ **")
         except Exception as ex:
            await e.reply_text(leave_errors(ex))
     else:
@@ -38,7 +31,7 @@ async def leave(SpamX: Client, e: Message):
               return
         try:
            await SpamX.leave_chat(chat)
-           await e.reply_text("**Left Successfully ✅ **")
+           await e.reply_text("**𝐿𝑒𝒻𝓉 𝒮𝓊𝒸𝒸𝑒𝓈𝓈𝒻𝓊𝓁𝓁𝓎 ✅ **")
         except Exception as ex:
            await e.reply_text(leave_errors(ex))
         if LOGS_CHANNEL:
