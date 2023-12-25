@@ -8,7 +8,7 @@ import platform
 __version__ = __version__
 
 
-ping_msg = PING_MSG if PING_MSG else "tHUNDERx"
+ping_msg = PING_MSG if PING_MSG else "𝒯𝐻𝒰𝒟𝐸𝑅 𝒳 🍷"
 pic = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/d44e21c2ba129c6aba2ab.jpg"
 amsg = ALIVE_MSG if ALIVE_MSG else "𝒯𝐻𝒰𝒩𝒟𝐸𝑅 𝒳"
 
