@@ -1,6 +1,5 @@
 """
-   © RiZoeLX 
-   SpamX - Telegram Bots
+   ThunderX - Telegram Bots
 """
 
 
