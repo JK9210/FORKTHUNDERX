@@ -1,9 +1,3 @@
-""" 
-     SpamX - Telegram Bots
-     © RiZoeLX 2022-2023
-"""
-
-
 from .. import Owner, handler, Sudos, DATABASE_URL
 from SpamX.database import gban_db
 import random 
