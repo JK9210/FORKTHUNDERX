@@ -1,6 +1,6 @@
 """
-     SpamX - Telegram Bots
-     © RiZoeLX - 2022-2023
+     Thunder X - Telegram Bots
+           2024 - 2025
 """
 import os, sys, asyncio, datetime, time, subprocess 
 from .. import handler, Owner, Sudos, ping_msg, __version__
@@ -20,7 +20,7 @@ from RiZoeLX.functions import get_time, delete_reply, Red7_Watch as oops_watch
 async def ping(_, e: Message):       
       start = datetime.datetime.now()
       uptime = await get_time((time.time() - start_time))
-      pong_msg = await e.reply("**Pong !!**")
+      pong_msg = await e.reply("**𝒫𝑜𝓃𝑔 ! !**")
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
       await pong_msg.edit_text(f"⌾ {ping_msg} ⌾ \n\n ༝ ᴘɪɴɢ: `{ms}` ᴍs \n ༝ ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ༝ ᴠᴇʀsɪᴏɴ: `{__version__}`")
@@ -30,9 +30,9 @@ async def ping_me(_, e: Message):
       start = datetime.datetime.now()
       uptime = await get_time((time.time() - start_time))
       try:
-        pong_msg = await e.edit_text("**Pong !!**")
+        pong_msg = await e.edit_text("**𝒫𝑜𝓃𝑔 ! !**")
       except:
-        pong_msg = await e.reply("**Pong !!**")
+        pong_msg = await e.reply("**𝒫𝑜𝓃𝑔 ! !**")
         await e.delete()    
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
@@ -43,12 +43,12 @@ async def ping_me(_, e: Message):
 @Client.on_message(filters.user(Owner) & filters.command(["getvars", "getvar"], prefixes=handler))
 @Client.on_message(filters.me & filters.command(["getvars", "getvar"], prefixes=handler))
 async def all_vars(_, message: Message):
-    await message.reply_text(f"All Variables given below 👇\n\n {Variables_text} \n\n © @RiZoeLX")
+    await message.reply_text(f"All Variables given below 👇\n\n {Variables_text} \n\n © @KANU_0008")
 
 @Client.on_message(filters.user(Sudos) & filters.command(["restart", "reboot"], prefixes=handler))
 @Client.on_message(filters.me & filters.command(["restart", "reboot"], prefixes=handler))
 async def restarter(SpamX: Client, message: Message):
-   await message.reply_text("**Re-starting...** \n Please wait!")
+   await message.reply_text("**𝑅𝑒-𝓈𝓉𝒶𝓇𝓉𝒾𝓃𝑔...** \n 𝒫𝓁𝑒𝒶𝓈𝑒 𝓌𝒶𝒾𝓉 !")
    try:
      await SpamX.stop()
    except Exception as error:
@@ -74,13 +74,13 @@ async def welcome_watcher(SpamX: Client, member: ChatMemberUpdated):
    user = member.new_chat_member.user if member.new_chat_member else member.from_user    
    if group_welcome:
       if user.id == mai.id:
-         await SpamX.send_message(message.chat.id, "SpamX Here. Powered by @RiZoeLX!")
+         await SpamX.send_message(message.chat.id, "ThunderX Here. Powered by @KANU_0008!")
          return
       if user.id == Owner:
          await SpamX.send_message(message.chat.id, f"{user.mention} Welcome to {message.chat.title} my King 👑")
          return
       if user.id in Devs:
-         await SpamX.send_message(message.chat.id, f"{user.mention} SpamX's Devs joined👾")
+         await SpamX.send_message(message.chat.id, f"{user.mention} ThunderX's Devs joined👾")
          return
       if user.id in Sudos:
          await SpamX.send_message(message.chat.id, f"{user.mention} Whoa! The Prince just joined 🫠!")
@@ -110,7 +110,7 @@ async def Update_SpamX(SpamX: Client, message: Message):
    except Exception as e:
       await message.reply_text(str(e))
       return
-   await message.reply_text("**Updated with main branch, restarting now.**")
+   await message.reply_text("**𝒰𝓅𝒹𝒶𝓉𝑒𝒹 𝓌𝒾𝓉𝒽 𝓂𝒶𝒾𝓃 𝒷𝓇𝒶𝓃𝒸𝒽, 𝓇𝑒𝓈𝓉𝒶𝓇𝓉𝒾𝓃𝑔 𝓃𝑜𝓌.**")
    args = [sys.executable, "-m", "SpamX"]
    os.execl(sys.executable, *args)
    quit()
@@ -126,16 +126,16 @@ async def os_system(SpamX: Client, message: Message):
        if check_var in Variables:
           var = check_var
        else:
-          await message.reply_text(f"Wrong variable! All Variables given below 👇\n\n {Variables_text} \n\n © @RiZoeLX")
+          await message.reply_text(f"Wrong variable! All Variables given below 👇\n\n {Variables_text} \n\n © @KANU_0008")
           return
        value = str(txt[1])
        try:
          os.system(f"dotenv set {var} {value}")
-         await message.reply_text("success ✓ wait for re-start")
+         await message.reply_text("𝓈𝓊𝒸𝒸𝑒𝓈𝓈 ✓ 𝓌𝒶𝒾𝓉 𝒻𝑜𝓇 𝓇𝑒-𝓈𝓉𝒶𝓇𝓉")
          args = [sys.executable, "-m", "SpamX"]
          os.execl(sys.executable, *args)
          quit()
        except Exception as error:
-         await message.reply_text(f"Error: {error} \n\n Report in @DNHxHELL")
+         await message.reply_text(f"Error: {error} \n\n Report in @UNI_INDIA_0000")
     else:
        await message.reply_text(f"**Wrong Usage** \n Syntax: {handler}setvar (var name) (value) \n\n Type `{handler}getvars` To get all Vars name!")
