@@ -8,9 +8,9 @@ import platform
 __version__ = __version__
 
 
-ping_msg = PING_MSG if PING_MSG else "SpamX"
-pic = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph//file/08445817174872b47cef8.jpg"
-amsg = ALIVE_MSG if ALIVE_MSG else "SpamX - by RiZoeLX"
+ping_msg = PING_MSG if PING_MSG else "tHUNDERx"
+pic = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/d44e21c2ba129c6aba2ab.jpg"
+amsg = ALIVE_MSG if ALIVE_MSG else "𝒯𝐻𝒰𝒩𝒟𝐸𝑅 𝒳"
 
 try:
    sah = RiZoeL.get_users(OWNER_ID)
@@ -25,14 +25,14 @@ class Alive:
 **⁂ {amsg} ⁂**
 
 ━───────╯•╰───────━
-➠ **Master:** {owner_mention}
-➠ **Python Version:** `{platform.python_version()}`
-➠ **SpamX Version:** `{__version__}`
-➠ **Pyrogram Version:** `{pyro_vr}`
-➠ **pyRiZoeLX Version:** `{pip_vr}`
-➠ **Channel:** @RiZoeLX
+➠ **𝑀𝒶𝓈𝓉𝑒𝓇:** {owner_mention}
+➠ **𝒫𝓎𝓉𝒽𝑜𝓃 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{platform.python_version()}`
+➠ **𝒮𝓅𝒶𝓂𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{__version__}`
+➠ **𝒫𝓎𝓇𝑜𝑔𝓇𝒶𝓂 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{pyro_vr}`
+➠ **𝒫𝓎 𝒯𝒽𝓊𝓃𝒹𝑒𝓇 𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{pip_vr}`
+➠ **𝒢𝓇𝑜𝓊𝓅:** @UNI_INDIA_0000
 ━───────╮•╭───────━
-➠ **Source Code:** [•Repo•](https://github.com/RiZoeLX/SpamX)
+➠ **𝒮𝑜𝓊𝓇𝒸𝑒 𝒞𝑜𝒹𝑒:** [•Repo•](https://github.com/APL9210/THUNDERX)
      """
 
 handler = HNDLR
