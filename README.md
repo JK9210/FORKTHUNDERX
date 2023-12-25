@@ -16,23 +16,15 @@
 ![Python](https://img.shields.io/badge/Python-v3.10-white?style=social&logo=python)
 ![GitHub language count](https://img.shields.io/github/languages/count/RiZoeLX/SpamX?&style=social&logo=hyper)
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/DNHxHELL)
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-white?&style=social&logo=telegram)](https://t.me/RiZoelX)
-
- - Requirements
-   - [![PyPI - pyrogram](https://img.shields.io/badge/pypi-pyrogram-informational)](https://pypi.org/project/pyrogram)  
-   - [![PyPI - pyRiZoeLX](https://img.shields.io/badge/pypi-pyRiZoeLX-informational)](https://pypi.org/project/pyRiZoeLX) 
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/UNI_INDIA_0000)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/FriendCastel)
 
 <b> Give a star ⭐</b>
 
 ----
 <h4>Youtube Tutorials 📺</h4>
 
-- [![YouTube Video](https://img.shields.io/youtube/views/GW_ZNdRrFtg?label=Tutorial++Heroku++&style=social)](https://youtu.be/GW_ZNdRrFtg)
-- [![YouTube Video](https://img.shields.io/youtube/views/6XIjTbumJYY?label=Tutorial++Mogenius++&style=social)](https://youtu.be/6XIjTbumJYY)
-- [![YouTube Video](https://img.shields.io/youtube/views/sYgy4_8i7c8?label=Tutorial++Google++Colab++&style=social)](https://youtu.be/sYgy4_8i7c8)
-- [![YouTube Video](https://img.shields.io/youtube/views/yC9z3kYKIgU?label=Tutorial++VPS++&style=social)](https://youtu.be/yC9z3kYKIgU)
-- [![YouTube Video](https://img.shields.io/youtube/views/ePpMvL6kdvI?label=Tutorial++VPS++Mobile++&style=social)](https://youtu.be/ePpMvL6kdvI)
+
 
 ----
 
@@ -91,6 +83,3 @@ pkg install python wget -y && pip install pyrogram  && pip install tgcrypto&& wg
 SpamX is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/gplv3-or-later.pngl) v3 or later.
 
 <h3>Credits</h3>
-
-  - <b> [RiZoeL](https://github.com/MrRizoel) : Dev/creator of SpamX </b> 
-  - <b> [Pyrogram](https://github.com/pyrogram/pyrogram) : Python Library used in SpamX
