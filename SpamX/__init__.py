@@ -1,4 +1,4 @@
-""" © RiZoeLX """
+""" © THUNDER X """
 
 from .config import *
 from .database import *
@@ -10,7 +10,7 @@ import time, os, sys
 
 print("""
      ╒══════════════════════╕
-        Starting Your SpamX 
+      ꜱᴛᴀʀᴛɪɴɢ ʏᴏᴜʀ ᴛʜᴜɴᴅᴇʀ x 
      ╘══════════════════════╛
 """)
 
