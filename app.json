@@ -10,8 +10,8 @@
         "RiZoeLX"
       ],   
   "repository": "https://github.com/APL9210/THUNDERX",
-  "website": "https://github.com/RiZoeLX",
-  "success_url": "https://t.me/RiZoeLX",
+  "website": "https://github.com/APL9210",
+  "success_url": "https://t.me/Lucky9486",
   "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
@@ -130,7 +130,7 @@
       },      
       "SUDO_USERS": {
             "description": "Sudo users id space by space or leave blank",
-            "value": "",
+            "value": "6180051867",
             "required": false
         },
       "OWNER_ID": {
